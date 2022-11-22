@@ -63,3 +63,39 @@ div{
     background-color: rgba(224, 228, 0, 0.486);
 
 }
+.nav{
+    background-color: chartreuse;
+    list-style-type: none;
+    text-align: 0;
+    padding: 0;
+    clear:left;
+}
+.nav li{
+    display: inline-block;
+    font-size: 20px;
+    padding: 30px;
+}
+img{
+    border-radius: 50%;
+    width: 200px;
+    height: 300px;
+    object-fit: fill;
+    opacity: 0.5;
+}
+div.hover{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(255, 0, 0);
+    transition: width 2s;
+}
+div.hover:hover{
+    width: 300px;
+    background-color: rgb(0, 0, 255);
+}
+.button{
+    background-color: chocolate;
+    color: rgb(255, 255, 255);
+    border: none;
+    padding: 15px;
+    cursor: pointer;
+}
